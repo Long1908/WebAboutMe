@@ -1,0 +1,47 @@
+body, html {
+    text-align: center;
+    height:100%;
+}
+div {
+    padding:100px;
+}
+.first_container
+{
+    background-image: url(images/mountain.png);
+    height:100%;
+    background-size: cover;
+    
+    /*--Not needed at the moment but for future cases this might help*/
+    background-repeat: no-repeat;
+    background-position: center;
+
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+.my_picture {
+    width:30%;
+    height:auto;
+    border-radius: 50%;
+}
+h1 {
+    font-size: 64px;
+}
+.my_name {
+    font-family: 'Dancing Script', cursive;
+    color: #c4382d;
+}
+.file {
+    width: 50%;
+    height: auto;
+}
+.about_me{
+    margin-top: -200px;
+}
+.about_me_icon{
+    padding-right: 20px;
+    float: left;
+}
+.about_me_description{
+    text-align : left;
+    font-size: 20px;
+    padding-left: 20px;
+}
